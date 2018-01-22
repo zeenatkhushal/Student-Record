@@ -1,8 +1,8 @@
 # Department of Computer Science<br />
 #School of Computing and Engineering<br />
-# IPhD Computer Science<br />
+#IPhD Computer Science<br />
 #Semester First<br />
-# Project area for two students for the courses mentioned below<br />
+#Project area for two students for the courses mentioned below<br />
 
 @Sayed Khushal Shah <br />
 @Zeenat Tariq <br />
