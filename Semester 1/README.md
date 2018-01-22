@@ -4,8 +4,8 @@
 #Semester First
 # Enrolled Students: 2
 
-@Sayed Khushal Shah
-@Zeenat Tariq
+@Sayed Khushal Shah <br />
+@Zeenat Tariq <br />
 
 
 This project is composed of two courses named: 
