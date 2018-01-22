@@ -1,14 +1,14 @@
-# IPhD Computer Science
-#Department of Computer Science
-#School of Computing and Engineering
-#Semester First
-# Enrolled Students: 2
+# Department of Computer Science<br />
+#School of Computing and Engineering<br />
+# IPhD Computer Science<br />
+#Semester First<br />
+# Project area for two students for the courses mentioned below<br />
 
 @Sayed Khushal Shah <br />
 @Zeenat Tariq <br />
 
 
-This project is composed of two courses named: 
+The subjects are:
 1. Advance Software Engineering
 2. Big Data Analytics & Analysis
 
