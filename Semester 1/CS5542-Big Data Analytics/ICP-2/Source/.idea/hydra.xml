@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HydraSettings">
+    <option name="hydraStorePath" value="C:\Users\Maham\Desktop\CS5542-Tutorial2-SparkSourceCode (1)\CS5542-Tutorial1B-SparkSourceCode\Spark WordCount\.hydra\idea" />
+    <option name="noOfCores" value="2" />
+    <option name="projectRoot" value="C:\Users\Maham\Desktop\CS5542-Tutorial2-SparkSourceCode (1)\CS5542-Tutorial1B-SparkSourceCode\Spark WordCount" />
+    <option name="sourcePartitioner" value="auto" />
+  </component>
+</project>
