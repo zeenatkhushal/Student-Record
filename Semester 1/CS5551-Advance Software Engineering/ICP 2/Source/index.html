@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="./angular.min.js.download"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    .weatherModule {
+  background: #f2f2f2;
+  height: 200px;
+  width: 450px;
+  border: 1px dashed #ccc;
+  padding: 1em;
+}
+  </style>
+
+  <title>by Khushal & Zeenat </title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+
+angular.module('weather', [])
+  .controller('weatherctrl', function($scope, $http) {
+
+    $scope.getWeather = function(first, last) {
+      $http.get("https://api.wunderground.com/api/5f3050fc61613457/conditions/q/"+first+"/"+last+".json").success(function(data) {
+        console.log(data);
+        temp = data.current_observation.temp_f;
+        humid = data.current_observation.relative_humidity
+        wind = data.current_observation.wind_mph
+        press = data.current_observation.pressure_mb
+        icon = data.current_observation.icon_url;
+        weather = data.current_observation.weather;
+        console.log(temp);
+        $scope.currentweather = {
+          html: "Currently Temperature is " + temp +" &deg; F, Humidity is " + humid+ " The weather is "+ weather + " The Wind is " +wind+ " and the Pressure is " + press + ""
+        }
+        $scope.currentIcon = {
+          html: "<img src='" + icon + "'/>"
+        }
+
+      })
+    }
+
+  });
+
+//]]> 
+
+</script>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">  
+</head>
+
+<body>
+    <div class="p-3 mb-2 bg-success text-black">
+    <center>
+        <h1><u>Welcome to Current Weather Application</u></h1>
+        <br>
+  <div ng-app="weather" ng-controller="weatherctrl" class="ng-scope">
+  State
+  <input type="text" ng-model="firstname" class="ng-valid ng-dirty">
+  <br>
+  <br>
+  <br> City
+  <input type="text" ng-model="lastname" class="ng-valid ng-dirty">
+  <br>
+  <br>
+  <br>
+  <button id="btn" ng-click="getWeather(firstname,lastname)"> Show Weather </button>
+  <br>
+  <br>
+  <div class="weatherModule">
+    <p class="currentConditions ng-binding" ng-bind-html-unsafe="currentweather.html">Currently 22.3 ° F and Clear</p>
+    <div class="currentIcon ng-binding" ng-bind-html-unsafe="currentIcon.html"><img src="./nt_clear.gif"></div>
+  </div>
+</div>
+
+
+  
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "t0fn3a6h"
+    }], "*")
+  }
+</script>
+ <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+         
+        </ul>
+        
+      </div>
+    </nav>
+
+    
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+    
+<br>
+<p>Please enter state and city name in correct format, such as MO as in state and Kansas City in City field</p>
+
+        </center></div>
+</body></html>
