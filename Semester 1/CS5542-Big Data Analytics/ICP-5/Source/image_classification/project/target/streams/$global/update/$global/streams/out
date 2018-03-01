@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/Maham/Desktop/ICP%205/CS5542-Tutorial5SourceCode/ImageClassification/image_classification/project/}image_classification-build...
+[info] Updating {file:/F:/GitHub/Student-Record/Semester%201/CS5542-Big%20Data%20Analytics/ICP-5/Source/image_classification/project/}image_classification-build...
 [debug] :: resolving dependencies :: default#image_classification-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#image_classification-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#image_classification-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@117186b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@719bec8e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4154ms :: artifacts dl 126ms
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-compile.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-runtime.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-test.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT provided produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-provided.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT optional produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-optional.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-compile-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-runtime-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test-internal produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-test-internal.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT plugin produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-plugin.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT sources produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-sources.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT docs produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-docs.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT pom produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-pom.xml
-[debug] 	report for default#image_classification-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Maham\Desktop\ICP 5\CS5542-Tutorial5SourceCode\ImageClassification\image_classification\project\target\resolution-cache\reports\default-image_classification-build-scala-tool.xml
-[debug] 	resolve done (4154ms resolve - 126ms download)
+[debug] :: resolution report :: resolve 12236ms :: artifacts dl 978ms
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-compile.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-runtime.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-test.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT provided produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-provided.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT optional produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-optional.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT compile-internal produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-compile-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT runtime-internal produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-runtime-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT test-internal produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-test-internal.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT plugin produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-plugin.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT sources produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-sources.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT docs produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-docs.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT pom produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-pom.xml
+[debug] 	report for default#image_classification-build;0.1-SNAPSHOT scala-tool produced in F:\GitHub\Student-Record\Semester 1\CS5542-Big Data Analytics\ICP-5\Source\image_classification\project\target\resolution-cache\reports\default-image_classification-build-scala-tool.xml
+[debug] 	resolve done (12236ms resolve - 978ms download)
 [info] Done updating.

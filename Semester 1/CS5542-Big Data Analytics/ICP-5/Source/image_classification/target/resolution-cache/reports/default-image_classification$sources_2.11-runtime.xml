@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180216173915"/>
+		date="20180228185430"/>
 	<dependencies>
 		<module organisation="com.levigo.jbig2" name="levigo-jbig2-imageio">
 			<revision name="1.6.5" status="release" pubdate="20151229004350" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/levigo/jbig2-imageio" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="161">
@@ -348,7 +348,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007003723" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="43">
-				<metadata-artifact status="successful" details="" size="5474" time="178" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5474" time="185" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="jar" ext="jar" status="no" details="" size="35216" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\jars\hadoop-mapreduce-client-jobclient-2.2.0.jar">
@@ -362,7 +362,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.2.0" status="release" pubdate="20131007003711" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="31">
-				<metadata-artifact status="successful" details="" size="4335" time="228" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4335" time="114" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278865" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\srcs\hadoop-mapreduce-client-app-2.2.0-sources.jar">
@@ -376,7 +376,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007003703" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="42">
-				<metadata-artifact status="successful" details="" size="1675" time="579" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1675" time="103" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10605" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\srcs\hadoop-mapreduce-client-shuffle-2.2.0-sources.jar">
@@ -390,7 +390,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007003538" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="110">
-				<metadata-artifact status="successful" details="" size="7324" time="268" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7324" time="98" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-nodemanager" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="262442" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\srcs\hadoop-yarn-server-nodemanager-2.2.0-sources.jar">
@@ -404,7 +404,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.2.0" status="release" pubdate="20131007003659" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="32">
-				<metadata-artifact status="successful" details="" size="3273" time="215" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3273" time="144" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244749" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\srcs\hadoop-mapreduce-client-common-2.2.0-sources.jar">
@@ -418,7 +418,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 			<revision name="2.2.0" status="release" pubdate="20131007003526" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="41">
-				<metadata-artifact status="successful" details="" size="3534" time="950" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3534" time="603" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-common" type="jar" ext="jar" status="no" details="" size="175554" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\jars\hadoop-yarn-server-common-2.2.0.jar">
@@ -432,7 +432,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.2.0" status="release" pubdate="20131007003626" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="40">
-				<metadata-artifact status="successful" details="" size="3085" time="236" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3085" time="139" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1008328" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\srcs\hadoop-mapreduce-client-core-2.2.0-sources.jar">
@@ -446,7 +446,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
 			<revision name="2.2.0" status="release" pubdate="20131007003604" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="39">
-				<metadata-artifact status="successful" details="" size="1961" time="337" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1961" time="312" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-client" type="jar" ext="jar" status="no" details="" size="94728" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\jars\hadoop-yarn-client-2.2.0.jar">
@@ -460,7 +460,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 			<revision name="2.2.0" status="release" pubdate="20131007003515" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="33">
-				<metadata-artifact status="successful" details="" size="5032" time="240" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5032" time="114" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="634761" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\srcs\hadoop-yarn-common-2.2.0-sources.jar">
@@ -474,7 +474,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 			<revision name="2.2.0" status="release" pubdate="20131007003452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="34">
-				<metadata-artifact status="successful" details="" size="2956" time="213" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2956" time="539" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-api" type="jar" ext="jar" status="no" details="" size="1158936" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\jars\hadoop-yarn-api-2.2.0.jar">
@@ -708,7 +708,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193753" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
-				<metadata-artifact status="successful" details="" size="8062" time="762" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.1/spark-mllib_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="8062" time="173" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.11/2.0.1/spark-mllib_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-mllib_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="736806" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib_2.11\srcs\spark-mllib_2.11-2.0.1-sources.jar">
@@ -752,7 +752,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-mllib-local_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928192706" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="130">
-				<metadata-artifact status="successful" details="" size="4096" time="309" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib-local_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib-local_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.1/spark-mllib-local_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4096" time="139" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib-local_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib-local_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.11/2.0.1/spark-mllib-local_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-mllib-local_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27561" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-mllib-local_2.11\srcs\spark-mllib-local_2.11-2.0.1-sources.jar">
@@ -858,7 +858,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-graphx_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193556" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="128">
-				<metadata-artifact status="successful" details="" size="5858" time="285" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-graphx_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-graphx_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.1/spark-graphx_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="5858" time="97" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-graphx_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-graphx_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.11/2.0.1/spark-graphx_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-graphx_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="97270" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-graphx_2.11\srcs\spark-graphx_2.11-2.0.1-sources.jar">
@@ -886,7 +886,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193702" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="112">
-				<metadata-artifact status="successful" details="" size="8504" time="178" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sql_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sql_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.1/spark-sql_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="8504" time="105" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sql_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sql_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.0.1/spark-sql_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-sql_2.11" type="jar" ext="jar" status="no" details="" size="6289413" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-2.0.1.jar">
@@ -999,7 +999,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-catalyst_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193426" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="115">
-				<metadata-artifact status="successful" details="" size="7044" time="177" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.1/spark-catalyst_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="7044" time="94" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.0.1/spark-catalyst_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-catalyst_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="699740" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\srcs\spark-catalyst_2.11-2.0.1-sources.jar">
@@ -1084,7 +1084,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-sketch_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193304" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="114">
-				<metadata-artifact status="successful" details="" size="3157" time="234" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sketch_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sketch_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.1/spark-sketch_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="3157" time="628" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sketch_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sketch_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.0.1/spark-sketch_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-sketch_2.11" type="jar" ext="jar" status="no" details="" size="29541" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-sketch_2.11\jars\spark-sketch_2.11-2.0.1.jar">
@@ -1113,7 +1113,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-streaming_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193114" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="111">
-				<metadata-artifact status="successful" details="" size="8959" time="244" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-streaming_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-streaming_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.1/spark-streaming_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="8959" time="110" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-streaming_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-streaming_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.11/2.0.1/spark-streaming_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-streaming_2.11" type="jar" ext="jar" status="no" details="" size="2089486" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-streaming_2.11\jars\spark-streaming_2.11-2.0.1.jar">
@@ -1127,7 +1127,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193107" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<metadata-artifact status="successful" details="" size="21046" time="241" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="21046" time="159" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-core_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1732012" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-core_2.11\srcs\spark-core_2.11-2.0.1-sources.jar">
@@ -1217,11 +1217,11 @@
 				<metadata-artifact status="no" details="" size="5280" time="0" location="C:\Users\Maham\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="C:\Users\Maham\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\jars\metrics-graphite-3.1.2.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
-					</artifact>
 					<artifact name="metrics-graphite" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10675" time="0" location="C:\Users\Maham\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\srcs\metrics-graphite-3.1.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="C:\Users\Maham\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\jars\metrics-graphite-3.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1852,7 +1852,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193019" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="56">
-				<metadata-artifact status="successful" details="" size="4659" time="214" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4659" time="101" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-unsafe_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33189" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-unsafe_2.11\srcs\spark-unsafe_2.11-2.0.1-sources.jar">
@@ -1880,7 +1880,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193653" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="55">
-				<metadata-artifact status="successful" details="" size="3995" time="200" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="3995" time="110" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37542" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-shuffle_2.11\srcs\spark-network-shuffle_2.11-2.0.1-sources.jar">
@@ -1894,7 +1894,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193039" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="49">
-				<metadata-artifact status="successful" details="" size="4897" time="244" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4897" time="109" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-common_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-common_2.11" type="jar" ext="jar" status="no" details="" size="2355467" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-network-common_2.11\jars\spark-network-common_2.11-2.0.1.jar">
@@ -1993,7 +1993,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193457" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="44">
-				<metadata-artifact status="successful" details="" size="6390" time="211" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="6390" time="129" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-launcher_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="65654" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-launcher_2.11\jars\spark-launcher_2.11-2.0.1.jar">
@@ -2007,7 +2007,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928193125" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
-				<metadata-artifact status="successful" details="" size="1856" time="173" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1856" time="96" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-tags_2.11\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="image_classification$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14732" time="0" location="C:\Users\Maham\.ivy2\cache\org.apache.spark\spark-tags_2.11\srcs\spark-tags_2.11-2.0.1-sources.jar">
