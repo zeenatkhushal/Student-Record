@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script>
+        zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #myChart {
+            height: 100%;
+            width: 100%;
+            min-height: 150px;
+        }
+
+        .zc-ref {
+            display: none;
+        }
+    </style>
+</head>
+
+<body ng-controller="tweets">
+<div id="myChart"></div>
+<script>
+    var app=angular.module('myapp',[]);
+
+    app.controller('tweets',function ($scope,$http) {
+        $http.get("http://127.0.0.1:8081/trends","success").then(function (response) {
+            var details = response.data.words;
+            console.log(details)
+            var myConfig = {
+                type: 'wordcloud',
+                options: {
+                    text: details.toString(),
+                }
+            };
+
+            zingchart.render({
+                id: 'myChart',
+                data: myConfig,
+                height: 400,
+                width: '100%'
+            });
+        })
+    })
+</script>
+</body>
+
+</html>
